@@ -1,0 +1,60 @@
+*{
+    background-color: rgb(204,0,0);
+    font-family: GB;
+}
+
+@font-face {
+    font-family: GB;
+    src: url(./assets/PKMN\ RBYGSC.ttf);
+}
+
+.pokedex{
+    display: flex;
+    justify-content: center;
+}
+
+.list-img{
+    width: 100px;
+}
+
+summary{
+    margin-left: 25px;
+    display: flex;
+    align-items: center;
+}
+
+details{
+    width: 90%;
+    margin: auto;
+    border: 3px solid black;
+    padding: 4px;
+    border-radius: 15px;
+    margin-bottom: 2px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.spacer{
+    flex-grow: 1;
+}
+
+.type{
+    padding: 2px;
+    margin: 2px;
+    border: 3px black solid;
+    border-radius: 15px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+button{
+    margin: auto;
+    margin-bottom: 10px;
+    width: 250px;
+}
