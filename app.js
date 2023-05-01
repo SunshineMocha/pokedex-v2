@@ -51,6 +51,9 @@ function displayPokemons(pokemons) {
                 <ul>
                 ${createAbilitiesList(pokemon)}
                 </ul>
+                <h3>
+                Stats:
+                </h3>
                 <ul>
                 ${createStatsList(pokemon)}
                 </ul>
