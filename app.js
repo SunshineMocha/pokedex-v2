@@ -51,6 +51,9 @@ function displayPokemons(pokemons) {
                 <ul>
                 ${createAbilitiesList(pokemon)}
                 </ul>
+                <ul>
+                ${createStatsList(pokemon)}
+                </ul>
             </div>
         </details>
         `
@@ -63,4 +66,13 @@ function createAbilitiesList(pokemon) {
         abilitiesHtml += `<li>${object.ability.name}</li>`
     }
     return abilitiesHtml;
+}
+
+function createStatsList(pokemon){
+    let statsHtml = '';
+    for (const object of pokemon.stats) {
+        // statsHtml += `<li>${object.base_stat}</li>`
+        statsHtml += `<li>${object.stat.name} ${object.base_stat}</li>`
+    }
+    return statsHtml;
 }

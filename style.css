@@ -41,6 +41,7 @@ ul{
 }
 
 .type{
+    background-color: white;
     padding: 2px;
     margin: 2px;
     border: 3px black solid;
